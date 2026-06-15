@@ -322,3 +322,10 @@ nav ul li a.active {
 .gallery-item:hover img {
   transform: scale(1.05);
 }
+.feature-box {
+  transition: 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+}
