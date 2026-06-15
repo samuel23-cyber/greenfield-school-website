@@ -68,7 +68,7 @@ nav ul li a:hover {
 /* HERO */
 .hero {
   background: linear-gradient(rgba(44, 62, 80, 0.85), rgba(44, 62, 80, 0.85)),
-              url('images/school.jpg.jpg') center/cover no-repeat;
+              url('images/school.jpg') center/cover no-repeat;
   color: white;
   padding: 140px 20px;
   @media (max-width: 768px) {
@@ -311,4 +311,15 @@ nav ul li a.active {
 .gallery-item h3 {
   padding: 15px;
   margin: 0;
+}
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  transition: 0.4s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
 }
